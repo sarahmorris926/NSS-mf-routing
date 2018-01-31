@@ -6,13 +6,13 @@ angular.module("RouteApp", ["ngRoute"])
     .when('/', {
         templateUrl: "app/partials/home.html"
     })
-    .when('/blueridgeparkway', {
+    .when('/pacificcoasthwy', {
        templateUrl: "app/partials/pacificcoasthwy.html",
-       controller: "PacificCoastHwy"
+       controller: "PacificCoastHwyCtrl"
     })
-    .when('/route66', {
+    .when('/overseashwy', {
        templateUrl: "app/partials/overseashwy.html",
-       controller: "OverseasHwy"
+       controller: "OverseasHwyCtrl"
     })
     .otherwise('/');
 });
