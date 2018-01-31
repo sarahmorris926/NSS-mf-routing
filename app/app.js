@@ -14,5 +14,5 @@ angular.module("RouteApp", ["ngRoute"])
        templateUrl: "app/partials/overseashwy.html",
        controller: "OverseasHwyCtrl"
     })
-    .otherwise('/');
+    .otherwise('/'); // goes back home to have listing
 });
